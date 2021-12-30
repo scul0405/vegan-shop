@@ -263,6 +263,7 @@ nav img {
     height: 100vh;
     width: 100%;
     background-color: #fff;
+    margin-bottom: 70px;
 }
 
 #shop-introduction {
@@ -336,3 +337,64 @@ nav img {
     margin-bottom: 30px;
 }
 
+/* MAIN BANNER CSS */
+
+#main-banner {
+    display: flex;
+}
+
+#main-banner img {
+    width: 67%;
+}
+
+.follow-us {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    background-size: cover;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+#follow-us-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#follow-us-below {
+    padding-right: 116px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #AAA;
+}
+
+#follow-us-email-input {
+    width: 240px;
+    height: 40px;
+    border-radius: 7px;
+    color: #AAA;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 0;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+#follow-us-email-input:focus {
+    transform: scale(1.1,1.1);
+}
+
+#subscribe {
+    width: 160px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bolder;
+    color: white;
+    background-color: #f69dad;
+    transition: all 0.3s;
+}
+
+#subscribe:hover {
+    color: #f69dad;
+    background-color: white;
+    border: 2px solid #f69dad;
+}
