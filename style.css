@@ -255,3 +255,84 @@ nav img {
     font-weight: 400;
     color: #999;
 }
+
+
+/* SHOP CSS */
+
+#shop-info {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+#shop-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 26% 0 26%;
+}
+
+#shop-store {
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+#vegan-shop-below {
+    font-size: 18px;
+    color: #AAA;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.shop-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10%;
+}
+
+.shop-rate {
+    width: 350px;
+    background-color: #f5f6fb;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    transition: all 0.5s;
+}
+
+.shop-rate:hover {
+    box-shadow: 2px 2px 8px #ddd;
+    transform: scale(1.05);
+}
+
+.shop-rate img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.rate-paragraph {
+    padding: 0 9%;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1.1px;
+    color: #999;
+    margin-bottom: 25px;
+}
+
+.shop-rate-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shop-rate-job {
+    font-size: 15px;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 30px;
+}
+
